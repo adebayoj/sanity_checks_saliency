@@ -4,7 +4,7 @@ This repository will be updated with code to replicate the paper
 **Sanity Checks for Saliency Maps** by *Julius Adebayo, Justin 
 Gimer, Ian Goodfellow, Moritz Hardt, & Been Kim*.
 
-We will be this repository with the code to replicate our 
+We will be updating this repository with code replicate our 
 experiments. 
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/saliency_methods_and_edge_detector.png" width="700">
@@ -39,9 +39,8 @@ supports our experimental findings.
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/mnist_digit_zero_random_labels_test.png" width="700">
 
-   
-
 ### Data
 
-An initial version of the data used can be obtained at: 
-/doc/data/
+An initial version of the demo data used can be obtained at: 
+/doc/data/. We will add all of the data used for the ImageNet
+experiments. 
