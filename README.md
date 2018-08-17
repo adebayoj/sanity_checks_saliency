@@ -4,8 +4,8 @@ This repository will be updated with code to replicate the paper
 **Sanity Checks for Saliency Maps** by *Julius Adebayo, Justin 
 Gimer, Ian Goodfellow, Moritz Hardt, & Been Kim*.
 
-Feel free to email the authors with any questions:  
-[Julius Adebayo](https://github.com/adebayoj) (juliusad@mit.edu)
+We will be this repository with the code to replicate our 
+experiments. 
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/saliency_methods_and_edge_detector.png" width="700">
 
@@ -30,6 +30,14 @@ analogy with edge detection in images, a technique that requires
 neither training data nor model. Theory in the case of a 
 linear model and a single-layer convolutional neural network
 supports our experimental findings.
+
+#### Model Randomization Test Inception v3 on ImageNet
+
+<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/bird_img_cascading_demo.png" width="700">
+
+#### Data Randomization Test
+
+<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/mnist_digit_zero_random_labels_test.png" width="700">
 
    
 
