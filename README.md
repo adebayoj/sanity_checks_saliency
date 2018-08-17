@@ -1,8 +1,9 @@
 Sanity Checks for Saliency Maps
 =====================
 This repository will be updated with code to replicate the paper
-`Sanity Checks for Saliency Maps' by Julius Adebayo, Justin 
-Gimer, Ian Goodfellow, Moritz Hardt, & Been Kim. 
+**Sanity Checks for Saliency Maps** by *Julius Adebayo, Justin 
+Gimer, Ian Goodfellow, Moritz Hardt, & Been Kim*.
+
 Feel free to email the authors with any questions:  
 [Julius Adebayo](https://github.com/adebayoj) (juliusad@mit.edu)
 
