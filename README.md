@@ -60,6 +60,5 @@ trained true labels. We present examples below on MNIST and Fashion MNIST.
 
 ### Data
 
-An initial version of the demo data used can be obtained at: 
-/doc/data/. We will add all of the data used for the ImageNet
-experiments. 
+See /doc/data/ for the exact ImageNet images used in this 
+work.  
