@@ -1,11 +1,8 @@
 Sanity Checks for Saliency Maps
 =====================
 This repository will be updated with code to replicate the paper
-**Sanity Checks for Saliency Maps** by *Julius Adebayo, Justin 
-Gilmer, Ian Goodfellow, Moritz Hardt, & Been Kim*.
-
-We will be updating this repository with code to replicate our 
-experiments. 
+**Sanity Checks for Saliency Maps** by<br/>
+*Julius Adebayo, Justin Gilmer, Ian Goodfellow, Moritz Hardt, & Been Kim*.
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/saliency_methods_and_edge_detector.png" width="700">
 
@@ -31,9 +28,15 @@ neither training data nor model. Theory in the case of a
 linear model and a single-layer convolutional neural network
 supports our experimental findings.
 
-#### Model Randomization Test Inception v3 on ImageNet
+#### Model Randomization Test 
+
+##### Inception v3 on ImageNet (Absolute Value Visualization)
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/bird_img_cascading_demo.png" width="700">
+
+##### Inception v3 on ImageNet (Diverging Visualization)
+
+#### Model Randomization Test Inception v3 on ImageNet (Absolute Value Visualization)
 
 #### Data Randomization Test
 
