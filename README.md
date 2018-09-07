@@ -48,7 +48,7 @@ achieving high training accuracy on the randomized training data
 is forced to memorize the randomized labels without being able to
 exploit the original structure in the data. We now compare 
 saliency masks for a model trained on random labels and one
-trained true labels. We present examples below.
+trained true labels. We present examples below on MNIST and Fashion MNIST.
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/mnist_cnn_random_labels_test.png" width="700">
 
@@ -56,7 +56,7 @@ trained true labels. We present examples below.
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/fmnist_cnn_random_labels_test.png" width="700">
 
-<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/fmnist_mlp_random_labels_test.png.png" width="700">
+<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/fmnist_mlp_random_labels_test.png" width="700">
 
 ### Data
 
