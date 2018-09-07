@@ -30,17 +30,33 @@ supports our experimental findings.
 
 #### Model Randomization Test 
 
-##### Inception v3 on ImageNet (Absolute Value Visualization)
+For the model randomization test, we randomize the weights of a 
+model starting from the top layer, successively, all the way to 
+the bottom layer. This procedure destroys the learned
+weights from the top layers to the bottom ones. We compare the resulting explanation from a network with random weights to the one obtained with the model’s original weights. Below we show the
+evolution of saliency masks from different methods for a demo image from the ImageNet dataset and the Inception v3 model.
 
-<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/bird_img_cascading_demo.png" width="700">
+<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/bird_img_cascading_demo_diverging_visualization.png" width="700">
 
-##### Inception v3 on ImageNet (Diverging Visualization)
 
-#### Model Randomization Test Inception v3 on ImageNet (Absolute Value Visualization)
 
 #### Data Randomization Test
 
-<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/mnist_digit_zero_random_labels_test.png" width="700">
+In our data randomization test, we permute the training labels
+and train a model on the randomized training data. A model 
+achieving high training accuracy on the randomized training data 
+is forced to memorize the randomized labels without being able to
+exploit the original structure in the data. We now compare 
+saliency masks for a model trained on random labels and one
+trained true labels. We present examples below.
+
+<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/mnist_cnn_random_labels_test.png" width="700">
+
+<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/mnist_mlp_random_labels_test.png" width="700">
+
+<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/fmnist_cnn_random_labels_test.png" width="700">
+
+<img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/fmnist_mlp_random_labels_test.png.png" width="700">
 
 ### Data
 
