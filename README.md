@@ -5,8 +5,7 @@ This repository will be updated with code to replicate the paper
 **Sanity Checks for Saliency Maps** by<br/>
 *Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt, & Been Kim*.
 
-#### Note
-This repository will be updated with code and additional information by Monday March 4th. Thanks.
+#### This repository will be updated with code by Monday March 4th. 
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/saliency_methods_and_edge_detector.png" width="700">
 
