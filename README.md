@@ -1,8 +1,12 @@
+
 Sanity Checks for Saliency Maps
 =====================
 This repository will be updated with code to replicate the paper
 **Sanity Checks for Saliency Maps** by<br/>
-*Julius Adebayo, Justin Gilmer, Ian Goodfellow, Moritz Hardt, & Been Kim*.
+*Julius Adebayo, Justin Gilmer, Michael Muelly, Ian Goodfellow, Moritz Hardt, & Been Kim*.
+
+####
+This repository will be updated with code and additional information by Monday March 4th. Thanks.
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/saliency_methods_and_edge_detector.png" width="700">
 
@@ -37,7 +41,6 @@ weights from the top layers to the bottom ones. We compare the resulting explana
 evolution of saliency masks from different methods for a demo image from the ImageNet dataset and the Inception v3 model.
 
 <img src="https://raw.githubusercontent.com/adebayoj/sanity_checks_saliency/master/doc/figures/bird_img_cascading_demo_diverging_visualization.png" width="700">
-
 
 
 #### Data Randomization Test
