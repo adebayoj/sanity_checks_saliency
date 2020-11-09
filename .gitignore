@@ -1,7 +1,7 @@
 # Byte-compiled / optimized / DLL files
 models/mlp_mnist/
 models/cnn_mnist/
-models/inception/inception_v2.ckpt
+models/inceptionv3/inception_v3.ckpt
 __pycache__/
 *.py[cod]
 *$py.class
