@@ -59,7 +59,7 @@ pyrsistent==0.15.4
 python-dateutil==2.8.0
 pytz==2019.2
 PyWavelets==1.0.3
-PyYAML==5.1.2
+PyYAML==5.4
 pyzmq==18.1.0
 qtconsole==4.5.4
 saliency==0.0.4
